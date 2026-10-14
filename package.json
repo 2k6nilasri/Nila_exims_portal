@@ -1,0 +1,15 @@
+{
+  "name": "nila-exims-consultant",
+  "version": "1.0.0",
+  "description": "Full-stack Consultant Website for NILA EXIMS – Import Export Consultant",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build"
+  },
+  "keywords": ["import", "export", "consultant", "nilaexims", "fullstack", "express", "react"],
+  "author": "NILA EXIMS",
+  "license": "MIT"
+}
